@@ -78,6 +78,7 @@ def atualizar_dados():
     if produto:
         produto.nome = 'Smartphone'
         produto.preco = 1200.0
+        produto.descricao = 'Um Smartphone de última geração'
         produto.save()
     """
     UPDATE produtos

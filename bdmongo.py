@@ -28,8 +28,8 @@ def criar_esquemas():
     
     try:
         # Criando os índices se necessário (opcional)
-        Usuario.create_index([('nome', 1)], unique=True)
-        Produto.create_index([('nome', 1)], unique=True)
+        Usuario.create_index([('nome', 1)], unique=False)
+        Produto.create_index([('nome', 1)], unique=False)
         bdcriado=True
         print("Esquemas criados com sucesso!\n")
     except Exception as e:

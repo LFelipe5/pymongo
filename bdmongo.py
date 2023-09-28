@@ -1,5 +1,7 @@
 from mongoengine import Document, StringField, IntField, FloatField, connect, ListField, ReferenceField
 
+
+# Nada aqui é obrigatório, apenas para facilitar o entendimento
 # Função para conectar ao banco de dados
 def conectar_banco_dados():
     try:
